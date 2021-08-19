@@ -1,0 +1,132 @@
+/* Interessante, mas não muito usado */
+/* @charset "UTF-8"; */
+/* @media screen and (min-width:601px) and (max-width:769px) { */
+
+    * {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    body {
+        background-color: #d7d7d7;
+    }
+    
+    fieldset {
+        border: 0;
+    }
+    
+    h1 {
+        font-size: 18px;
+    }
+    
+    form {
+        padding: 50px 50px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: left;
+        border-radius: 18px;
+        max-width: 300px;
+        max-height: 300px;
+        font-size: 1em;
+        background-color: white;
+    }
+    
+    label {
+        font-size: 15px;
+    }
+    
+    input {
+        margin-bottom: 10px;
+    }
+    
+    button {
+        margin-top: 15px;
+    }
+    
+    #nome {
+        background-color: #d7d7d7;
+        border-radius: 3px;
+        border: 1px;
+        padding: 7px 50px;
+    }
+    
+    #email {
+        background-color: #d7d7d7;
+        border-radius: 3px;
+        border: 0;
+        padding: 7px 50px;
+    }
+    
+    #check2 {
+        font-size: 13.5px;
+    }
+    
+    #email1 {
+        font-weight: lighter;
+    }
+    
+    #name1 {
+        font-weight: lighter;
+    }
+    
+    #botao {
+        height: 3em;
+        width: 6em;
+        background-color: #f15326;
+        color: #fff;
+        border: 0;
+        border-radius: 1em;
+    }
+    
+    @media only screen and (min-width: 768px) and (max-width: 959px) {
+    
+        body {
+            background-color: #d7d7d7;
+        }
+        
+        h1 {
+            /* font-size: 30px; */
+            /* Por exemplo. E para tranformar de pixels (px) para 'em', basta dividir por 16. Coloquei uma referência de calu*/
+            font-size: 1.875em;
+        }
+    
+        form {
+            padding: 65px 50px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: white;
+            text-align: left;
+            border-radius: 18px;
+            max-width: 300px;
+            max-height: 300px;
+        }
+    }
+    
+    /* @media screen and (max-width:600px) { */
+    @media only screen and (max-width: 767px) { body {
+            background-color: #d7d7d7;
+        }
+        
+        h1 {
+            /* font-size: 30px; */
+            /* Por exemplo. E para tranformar de pixels (px) para 'em', basta dividir por 16. Coloquei uma referência de calu*/
+            font-size: 1.875em;
+        }
+    
+        form {
+            padding: 65px 50px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: white;
+            text-align: left;
+            border-radius: 18px;
+            max-width: 300px;
+            max-height: 300px;
+        }
+    }
+    
